@@ -1,19 +1,27 @@
 #board {
     padding-top: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1 {
     text-align: center;
 }
-
+body {
+    background-color: cornflowerblue;
+    
+}
+/* all 9 game cell */
 .row > div {
     float: left;
     height: 100px;
     width: 100px;
-   
-}
-.row:hover {
     cursor: pointer;
+    line-height: 7rem;
+    font-size: 5rem;
+    text-align: center;
 }
+/* .row:hover { */
+    
+/* } */
 .row {
     clear: both;
     margin: 0 auto;
@@ -30,4 +38,7 @@ h1 {
 }
 .left {
     border-right: 2px solid /* orange*/;
+}
+.winner{
+    text-align: center;
 }
